@@ -1,0 +1,28 @@
+  /***************************************/
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+.bt4{
+  color: rgb(95, 95, 95);
+  border-color: rgb(72, 153, 219);
+  transition: .2s;
+}
+.bt4:hover{
+  transition: .2s;
+  border-color: rgb(92, 202, 230);
+}
+.bt4:active{
+  animation: pulse2 .2s;
+}
+
+@keyframes pulse2 {
+  0% { box-shadow: 0 0 0 0 rgb(33, 74, 107);; border: solid;}
+  50% { box-shadow: 0 0 2em rgb(52, 138, 209);; border: solid;}
+  100% { box-shadow: 0 0 0 0 rgb(33, 74, 107);}
+}
+/***************************************/
